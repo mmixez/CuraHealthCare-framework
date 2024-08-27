@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CuraHealthCare Automation Test Suite">
+    <listeners>
+        <listener class-name="com.Cura.qa.listeners.MyListeners"/>
+    </listeners>
+    <test name="Test  cases">
+        <classes>
+
+            <class name="com.Cura.qa.testcases.HomeTest">
+                <methods>
+                    <include name="verifyRedirectingHomePageTest"/>
+                </methods>
+            </class>
+            <class name="com.Cura.qa.testcases.LoginTest">
+                <methods>
+                    <include name="verifyLoginWithValidCredentials"/>
+                    <include name="verifyLoginWithValidUserNameAndInvalidPassword"/>
+                    <include name="verifyLoginWithInvalidUserNameAndValidPassword"/>
+                </methods>
+            </class>
+
+            <class name="com.Cura.qa.testcases.MakeAppointmentTest">
+                <methods>
+                    <include name="verifyMakeAppointment"/>
+                </methods>
+            </class>
+            <class name="com.Cura.qa.testcases.HistoryTest">
+                <methods>
+                    <include name="verifyHistoryTitleIsDisplayed"/>
+                    <include name="verifyAppointmentDetailsInHistory"/>
+                </methods>
+            </class>
+            <class name="com.Cura.qa.testcases.LogoutTest">
+                <methods>
+                    <include name="verifyLogoutSuccess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
