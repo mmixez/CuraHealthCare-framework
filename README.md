@@ -18,3 +18,5 @@ URL: https://katalon-demo-cura.herokuapp.com/
   * Previous appointments information
 
 ![Screenshot 2024-08-26 at 8 06 39 PM](https://github.com/user-attachments/assets/f247f6c5-44c2-42bf-b89e-4096ba533701)
+
+![Screenshot 2024-09-04 at 4 58 44 PM](https://github.com/user-attachments/assets/05c72782-a048-4fb0-9723-e8b766ed6fd8)
