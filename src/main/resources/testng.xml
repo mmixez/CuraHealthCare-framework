@@ -3,6 +3,7 @@
 <suite name="CuraHealthCare Automation Test Suite">
     <listeners>
         <listener class-name="com.Cura.qa.listeners.MyListeners"/>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
     </listeners>
     <test name="Test  cases">
         <classes>
